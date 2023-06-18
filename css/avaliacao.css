@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* Estilização Geral */
+body{
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+footer {
+    clear: both;
+    background-color: #e0dcd6;
+}
+
+
+.container{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+/* Fim */
+/* Estilização do menu de links */
+.menu{
+    font-size: 14px;
+    height: auto;
+    background-color: #1515bb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.menu{
+    text-align: center;
+}
+    
+.menu li{
+    display: inline;
+    padding: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu,
+.inicio{
+    vertical-align: middle;
+}
+
+#login{
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+}
+/* Fim */
+/* Estilização do conteúdo principal */
+section .container{
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #999;
+    margin-top: 20px;
+}
+
+section h1{
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: solid #1515bb;
+
+    margin-top: 20px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+} 
+
+section h2{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section p{
+    font-size: 14px;
+    text-align: justify;
+    text-indent: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+section ul{
+    font-size: 14px;
+    text-align: justify;
+    list-style-type: disc;
+
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+section li{
+    padding-bottom: 10px;
+}
+/* Fim */
+/* Estilização do rodapé */
+.social{
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+.social li a {
+    height: 32px;
+    width:  32px;
+    
+    display: inline;
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+
+.copy{
+    text-align: center;
+    font-weight: bold;
+}
+
+footer p{
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+footer .container {
+    position: relative;
+    bottom: 0;
+}
+/* Fim */

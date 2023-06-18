@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* Estilização Geral */
+body{
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+footer {
+    clear: both;
+    background-color: #e0dcd6;
+}
+
+.container{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+/* Fim */
+/* Estilização do menu de links */
+.menu{
+    font-size: 14px;
+    height: auto;
+    background-color: #1515bb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.menu{
+    text-align: center;
+}
+    
+.menu li{
+    display: inline;
+    padding: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu,
+.inicio{
+    vertical-align: middle;
+}
+
+#login{
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+}
+/* Fim */
+/* Estilização do conteúdo */
+section .container{
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #ff0000;
+    padding-bottom: 200px;
+}
+
+section h1{
+    font-size: 24px;
+    font-weight: bold;
+    text-indent: 50px;
+    border-bottom: solid #020275;
+
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+section p{
+    text-indent: 15px;
+    font-size: 18px;
+
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+figure{
+    text-align: center;
+}
+
+figcaption{
+    text-align: center;
+    font-style: italic;
+    background-color: #d67676;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+/* Fim */
+/* Estilização do rodapé */
+.social{
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+.social li a {
+    height: 32px;
+    width:  32px;
+    
+    display: inline;
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+
+.copy{
+    text-align: center;
+    font-weight: bold;
+}
+
+footer p{
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+footer .container {
+    position: relative;
+    bottom: 0;
+}
+/* Fim */
