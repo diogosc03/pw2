@@ -1,3 +1,3 @@
-<h1>PW2</h1><br>
+<h1>PW2</h1>
 <hr>
-Segunda avaliação da disciplina de Programação Web
+<h2>Segunda avaliação da disciplina de Programação Web</h2>
